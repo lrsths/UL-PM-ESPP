@@ -16,23 +16,6 @@ from src.decoder import decode_sampled_path_edge
 torch.cuda.empty_cache()
 import os
 
-# from ablation.decoding_method import (
-#     decode_greedy_path, decode_sampled_path
-# )
-#
-# from ablation.decoding import (
-#     decode_sampled_path,
-#     decode_sampled_path_edge,
-#     decode_sampled_path_edge_greedy,
-#     decode_sampled_path_edge_beam,
-#     decode_beam_search
-# )
-#
-# from ablation.utils import (
-#     labeling_setting_shortest_path, beam_search_best,
-#     labeling_espp_strict, evaluate_paths
-# )
-
 from src.gnn import build_model
 
 import argparse
